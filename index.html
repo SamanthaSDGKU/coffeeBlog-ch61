@@ -9,33 +9,68 @@
 <body>
     <!-- this is a comment-->
     <header class="main-header">
-        <h1>Coffee Blog</h1>
+        <div class="navigation-bar">
+            <h1>Coffee Blog</h1>
+            <nav class="menu">
+                <a href="#">About us</a>
+                <a href="#">Courses</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+
         <p>Coffee Blog with tips and courses</p>
         <p>Learn from the experts with the best recipes and tips</p>
     </header>
-    <main class="container">
-        <h2>Our Blog</h2>
+    <main class="container main-flex">
+        <section class="blog-container">  <!-- child-1 -->
+            <h2>Our Blog</h2>
 
-        <div>
-            <img src="./img/blog1.jpg" alt="coffee">
-            <h3>Coffee bean type</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius reiciendis molestiae architecto ex ullam unde at temporibus cumque, excepturi modi quae rerum rem laborum voluptas beatae tenetur deserunt dolor.</p>
+            <div class="blog-item">
+                <img src="./img/blog1.jpg" alt="coffee">
+                <h3>Coffee bean type</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius reiciendis molestiae architecto ex ullam unde at temporibus cumque, excepturi modi quae rerum rem laborum voluptas beatae tenetur deserunt dolor.</p>                
+                <a href="#" class="btn btn-black">Read more</a>    
+            </div>
+            <div class="blog-item">
+                <img src="./img/blog2.jpg" alt="coffee">
+                <h3>3 Delicious Coffee Recipes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quasi, vel nulla provident atque at rem perspiciatis inventore exercitationem voluptates quae similique, quaerat quisquam repellendus necessitatibus quo libero iste aliquid?</p>
+                <a href="#" class="btn btn-black">Read more</a>
+            </div>
+            <div class="blog-item">
+                <img src="./img/blog3.jpg" alt="coffee">
+                <h3>Coffee Benefits</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga in cupiditate non, asperiores alias laboriosam et perferendis ut ab totam. Nulla illo odio ea quo quam amet itaque inventore consequatur?</p>
+                <a href="#" class="btn btn-black">Read more</a>
+            </div>
+        </section>
+        <section class="courses-container"> <!-- child-2 -->
             
-            <a href="#" class="btn-more">Read more</a>
-
-        </div>
-        <div>
-            <img src="./img/blog2.jpg" alt="coffee">
-            <h3>3 Delicious Coffee Recipes</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quasi, vel nulla provident atque at rem perspiciatis inventore exercitationem voluptates quae similique, quaerat quisquam repellendus necessitatibus quo libero iste aliquid?</p>
-            <a href="#" class="btn-more">Read more</a>
-        </div>
-        <div>
-            <img src="./img/blog3.jpg" alt="coffee">
-            <h3>Coffee Benefits</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga in cupiditate non, asperiores alias laboriosam et perferendis ut ab totam. Nulla illo odio ea quo quam amet itaque inventore consequatur?</p>
-            <a href="#" class="btn-more">Read more</a>
-        </div>
+            <h2>Our courses and workshops</h2>
+            <div class="courses-item">
+                <h3>Coffee extraction techniques</h3>
+                <p>Price: Free</p>
+                <p>Seat:20</p>
+                <a href="#" class="btn btn-brown">More information</a>
+            </div>
+            <div  class="courses-item">
+                <h3>Coffee extraction techniques</h3>
+                <p>Price: Free</p>
+                <p>Seat:20</p>
+                <a href="#" class="btn btn-brown">More information</a>
+            </div>
+        </section>
     </main>
+
+    <footer class="main-footer">
+        <div class="navigation-bar">
+            <h1>Coffee Blog</h1>
+            <nav class="menu">
+                <a href="#">About us</a>
+                <a href="#">Courses</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
